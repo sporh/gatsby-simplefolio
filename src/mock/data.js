@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Henrik Sporh Christiansen', // e.g: 'Name | Developer'
+  lang: 'da', // e.g: en, es, fr, jp
+  description: 'Henrik Sporh Christiansen', // e.g: Welcome to my website
 };
 
 // HERO DATA
