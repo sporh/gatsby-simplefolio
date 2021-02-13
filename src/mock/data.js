@@ -9,10 +9,10 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Mit navn er',
+  name: 'Henrik Sporh Christiansen',
+  subtitle: 'Velkommen',
+  cta: 'Læs mere',
 };
 
 // ABOUT DATA
