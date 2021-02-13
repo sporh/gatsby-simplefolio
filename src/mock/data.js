@@ -10,7 +10,7 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: 'Mit navn er',
-  name: 'Henrik Sporh Christiansen',
+  name: 'Henrik Christiansen',
   subtitle: 'Velkommen',
   cta: 'Læs mere',
 };
@@ -32,8 +32,8 @@ export const projectsData = [
     title: '',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://www.become.dk/',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
