@@ -18,17 +18,17 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne: 'Jeg er partner i bureauet Become. Mine kerneområder er WordPress, Woocommerce og Active Campaign som kunderne har stor gavn af.',
+  paragraphTwo: 'I 2011 stiftede jeg bureauet Beruf sammen med Andreas Solgaard i København, og i 2020 fusionerede vi med Århusianske Compell, hvor de tog det fælles navn Become. Become giver kunderne målbare resultater i en omskiftelig, digital verden.',
+  paragraphThree: 'Kan jeg hælpe dig? Send mig en mail.',
+  resume: 'https://www.linkedin.com/in/henriksporh/', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'become.jpg',
     title: '',
     info: '',
     info2: '',
