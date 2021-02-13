@@ -9,8 +9,8 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: 'Mit navn er',
-  name: 'Henrik Christiansen',
+  title: 'Hej, mit navn er ',
+  name: 'Henrik',
   subtitle: 'Velkommen',
   cta: 'Læs mere',
 };
@@ -29,29 +29,29 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'become.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    title: 'Become',
+    info: 'Online markedsføring ',
+    info2: 'Siden 2011 har vi hjulpet virkosmheder med Google Ads, Facebook Ads, Analytics og hjemmesider.',
     url: 'https://www.become.dk/',
     repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'mimer-metrics.jpg',
+    title: 'Mimer Metrics',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://mimer.io/',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'skywalkr.jpg',
+    title: 'Skywalkr',
+    info: 'Lynhurtig WordPress Hosting',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://www.skywalkr.io/',
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
