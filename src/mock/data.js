@@ -31,7 +31,7 @@ export const projectsData = [
     img: 'become.jpg',
     title: 'Become',
     info: 'Online markedsføring ',
-    info2: 'Siden 2011 har vi hjulpet virkosmheder med Google Ads, Facebook Ads, Analytics og hjemmesider.',
+    info2: 'Siden 2011 har vi hjulpet virkosmheder med Google Ads, Facebook Ads, Analytics og hjemmesider. Dengang hed vi Beruf, men siden 2020 har vi fusioneret med Compell fra Aarhus og hedder nu Become',
     url: 'https://www.become.dk/',
     repo: '', // if no repo, the button will not show up
   },
@@ -57,9 +57,9 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'Skal vi lave noget sammen?',
+  btn: 'Kontakt mig',
+  email: 'hcbecome.dk',
 };
 
 // FOOTER DATA
