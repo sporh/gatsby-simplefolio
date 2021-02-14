@@ -18,9 +18,9 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'Jeg er partner i bureauet Become. Mine kerneområder er WordPress, Woocommerce og Active Campaign som kunderne har stor gavn af.',
-  paragraphTwo: 'I 2011 stiftede jeg bureauet Beruf sammen med Andreas Solgaard i København, og i 2020 fusionerede vi med Århusianske Compell, hvor de tog det fælles navn Become. Become giver kunderne målbare resultater i en omskiftelig, digital verden.',
-  paragraphThree: 'Kan jeg hælpe dig? Send mig en mail.',
+  paragraphOne: 'Jeg er partner i bureauet Become. Og iværksætter i hjertet :)',
+  paragraphTwo: 'Siden 2005 har jeg drevet virksomhed. Mit primære fokus har været iværksætteri, online markedsføring og hjemmesider. WordPress, design, JavaScript.',
+  paragraphThree: 'Kan jeg hjælpe dig?',
   resume: 'https://www.linkedin.com/in/henriksporh/', // if no resume, the button will not show up
 };
 
@@ -30,8 +30,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'become.jpg',
     title: 'Become',
-    info: 'Online markedsføring ',
-    info2: 'Siden 2011 har vi hjulpet virkosmheder med Google Ads, Facebook Ads, Analytics og hjemmesider. Dengang hed vi Beruf, men siden 2020 har vi fusioneret med Compell fra Aarhus og hedder nu Become',
+    info: 'Online markedsføring.',
+    info2: 'Siden 2011 har vi hjulpet virkosmheder med Google Ads, Facebook Ads, Analytics og hjemmesider. Dengang hed vi Beruf, men i 2020 fusionerede vi med Compell fra Aarhus og hedder nu Become. Samme ydelser og service - bare landsdækkende.',
     url: 'https://www.become.dk/',
     repo: '', // if no repo, the button will not show up
   },
@@ -39,8 +39,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'mimer-metrics.jpg',
     title: 'Mimer Metrics',
-    info: '',
-    info2: '',
+    info: 'Rapportering og dashbords samlet og nemt',
+    info2: 'Engelsksproget SaaS, der samler dine tal i et dashboard eller rapport online, så du har et overblik. Lav dine egne oversigter, eller brug dem vi har lavet, så du ikke mister overblikket.',
     url: 'https://mimer.io/',
     repo: '', // if no repo, the button will not show up
   },
@@ -49,7 +49,7 @@ export const projectsData = [
     img: 'skywalkr.jpg',
     title: 'Skywalkr',
     info: 'Lynhurtig WordPress Hosting',
-    info2: '',
+    info2: 'Dansk WordPress hosting til virksomheder, der vil have hastighed og dansk support, man ikke får andre steder.',
     url: 'https://www.skywalkr.io/',
     repo: '', // if no repo, the button will not show up
   },
@@ -57,9 +57,9 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: 'Skal vi lave noget sammen?',
+  cta: 'Kan jeg hælpe med noget? Så lad os tage en snak.',
   btn: 'Kontakt mig',
-  email: 'hcbecome.dk',
+  email: 'hc@become.dk',
 };
 
 // FOOTER DATA
@@ -68,27 +68,27 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
+      url: 'https://twitter.com/sporh',
     },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
+    // {
+    //   id: nanoid(),
+    //   name: 'codepen',
+    //   url: '',
+    // },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/henriksporh/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/sporh',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
