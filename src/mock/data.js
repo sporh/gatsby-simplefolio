@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: 'Hej, mit navn er',
   name: 'Henrik Sporh Christiansen',
-  // subtitle: '',
+  //subtitle: '',
   cta: 'Læs mere',
 };
 
